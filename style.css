@@ -1,0 +1,660 @@
+body{
+
+    background-color: #f7f8fa;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+/*                                                                   header CSS                                                         */
+.header{
+    background-color: rgb(0, 111, 190);  
+    
+}
+
+.logosetting li {
+
+    display: inline;
+    padding: 10px;
+
+}
+
+.logosetting{
+
+    text-align: center;
+}
+
+.logosetting li .SocialLogo{
+
+    width: 15px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.headtxt{
+    text-align: center;
+    padding-top: 6px;
+    color: white;
+}
+
+.buttonprop{
+
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.buttonprop li{
+
+    display: inline;
+     
+}
+
+.buttonprop li input{
+
+   font-size: small;
+   color: green;
+   border: black solid 1px;
+
+}
+
+/*                                                        Header CSS End                                */
+
+
+
+
+
+/* .saylogo{
+    text-align: center;
+}
+
+.saylogo img{
+    width: 250px;
+}
+
+.NavBar{
+
+    text-align: left;
+}
+
+ .NavBar ul{
+    list-style: none;
+    padding-top: 20px;
+    display: inline-flex;
+    
+}
+.NavBar ul li {
+    
+    
+    padding: 8px;
+    font-size: medium;
+    font-weight: 500;
+    
+    
+    
+}
+
+.NavBar ul  .round {
+
+    border-radius: 40px;
+}
+
+.NavBar ul li:hover , .first{ 
+
+    background-color: rgb(0, 111, 190);      
+ 
+
+}
+
+.NavBar ul li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+.NavBar-Sub{
+    
+    display: none;   
+} 
+
+
+
+
+.NavBar ul li:hover .NavBar-Sub {
+
+    display: block;
+    position: absolute;  
+    
+
+     
+}  
+
+
+.NavBar ul li:hover .NavBar-Sub  ul{
+
+    display: block;
+    
+}  
+
+.NavBar ul li:hover .NavBar-Sub  ul li{
+
+   margin-left: -40px;
+   text-align: left;
+
+     
+} 
+
+
+
+ .NavBar-Sub ul li:hover{
+
+    background-color: rgb(0, 111, 190);       
+ }
+ 
+
+
+
+
+
+
+
+
+ .NavBar-Sub-Sub{
+
+    display: none;
+ }
+ 
+
+
+.NavBar-Sub ul li:hover .NavBar-Sub-Sub {
+
+    display: block;
+    position: absolute;  
+    margin-left: 198px;
+    margin-top: -31px;
+    width: max-content;
+    
+    
+    
+      
+}  
+
+.NavBar-Sub-Sub ul{
+
+    margin-top: -21px;
+}
+
+
+.NavBar-Sub .Dono li:hover .NavBar-Sub-Sub {
+
+    display: block;
+    position: absolute;  
+    margin-left: 124px;
+    margin-top: -31px;
+    width: max-content;
+  
+    
+    
+      
+}
+
+
+
+
+
+ .NavBar-Sub-Sub-Sub{
+
+    display: none;
+ }
+
+ 
+.NavBar-Sub-Sub ul li:hover .NavBar-Sub-Sub-Sub {
+
+    display: block;
+    position: absolute;  
+    margin-left: 163px;
+    margin-top: -31px;
+    width: 200px;  
+      
+}  
+
+
+.NavBar ul li a{
+
+    color:gray;
+}
+
+ul li:hover>a {
+    color: white;
+    
+}
+
+ul li:hover li {
+
+    background-color: white;
+}
+
+.NavBar{
+
+    z-index: 99;
+}
+ */
+
+ .header-nav {
+    text-align: center;
+    width: 100% !important;
+    height: auto;
+    background-color: #F5F5F5 !important;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.navbar2 {
+    padding-top: 15px;
+    text-align: center !important;
+}
+
+.navbar2 ul li {
+    font-size: small;
+    font-weight: 500;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+.first {
+    border-radius: 40px;
+    background-color: rgb(0, 111, 190);
+}
+
+.first a {
+    color: white !important;
+}
+
+.round:hover {
+    border-radius: 40px !important;
+    background-color: rgb(0, 111, 190) !important;
+}
+
+.round:hover a {
+    color: white !important;
+}
+
+.navbar2 ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.icon {
+    position: relative;
+    top: 2px;
+}
+
+.navMenu ul {
+    list-style: none;
+}
+
+.navMenu ul li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.navMenu {
+    display: none;
+}
+
+.navbar2 ul li:hover .navMenu {
+    display: block;
+    position: absolute;
+}
+
+.navbar2 ul li:hover .navMenu ul li {
+    margin-left: -40px;
+    text-align: left;
+}
+
+.round .navMenu ul li a {
+    color: black !important;
+}
+
+.navMenu ul li:hover {
+    background-color: rgb(0, 111, 190);
+}
+
+.navMenu ul li:hover a {
+    color: white !important;
+}
+
+ul li:hover li {
+    background-color: white;
+}
+
+.navbar2 {
+    z-index: 99;
+}
+
+.navMenu ul {
+    margin-top: 20px;
+}
+
+.icon1 {
+    padding-left: 85px;
+}
+
+.icon2 {
+    padding-left: 95px;
+}
+
+.icon3 {
+    padding-left: 7px;
+}
+
+.icon4 {
+    padding-left: 15px;
+}
+
+.icon5 {
+    padding-left: 3px;
+}
+
+.navMenu-item {
+    display: none;
+}
+
+.navMenu ul li:hover .navMenu-item {
+    display: block;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: -47px;
+    width: max-content;
+}
+
+.round .navMenu .navMenu-item ul li a {
+    color: black !important;
+}
+
+.navMenu .navMenu-item ul li:hover a {
+    color: white !important;
+}
+
+.navMenu .donor li:hover .navMenu-item {
+    display: block !important;
+    position: absolute !important;
+    margin-left: 115px !important;
+    margin-top: -46px !important;
+    width: max-content !important;
+}
+
+.navMenu-item-item {
+    display: none;
+}
+
+.navMenu-item ul li:hover .navMenu-item-item {
+    display: block;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -47px;
+    width: max-content;
+}
+
+.round .navMenu .navMenu-item .navMenu-item-item ul li a {
+    color: black !important;
+}
+
+.navMenu .navMenu-item .navMenu-item-item ul li:hover a {
+    color: white !important;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+.move{
+
+    margin-left: -10px;
+    
+}
+
+
+/*                                                Nav Bar End                                  */
+
+
+.SlideShow img{
+
+    width: 100%;
+
+}
+
+/*                                                Slide show End                                  */
+
+.Headlines{
+    margin-top: 10px;
+   background-color: white;
+}
+
+
+.Headlines p{
+
+ font-size: 14px;
+ background-color:rgb(0, 111, 190);  
+ text-align: center;
+
+
+        
+}
+
+.green{
+
+    color: rgb(47, 120, 28);
+}
+.blue{
+
+    color: rgb(48, 138, 202);
+}
+
+.descp{
+
+    text-align: center;
+    background-color:rgb(247, 248, 250);
+}
+
+.descp p {
+
+
+    line-height: 26.6px;
+    font-size: 14px;
+    color: #666666;
+    text-align: justify;
+
+    
+}
+
+/*                                                        Description end */
+.workbg{
+
+    background:rgb(0, 90, 226) ;
+    text-align: center;
+   
+}
+.workimg{
+
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 50px 50px 50px 50px;
+    font-size: 14px;
+   
+}
+.workimg img{
+    width: 40px;
+    height: 40px;
+
+}
+
+.workimg h2,h5{
+
+    color: white;
+}
+
+.workimg h5 span{
+
+    color: rgb(0, 254, 67);
+}
+/*                                                     */
+
+.WWAD{
+    padding-top: 50px;
+ text-align: center;
+background-color:rgb(247, 248, 250);
+
+
+}
+
+.center{
+    text-align: center;
+    box-shadow: 0px 0px 15px;
+    padding: 40px 0px 40px 0px;
+    margin-bottom: 20px;
+   font-size: 18px;
+    /* width: 295px;
+    height: 185px; */
+
+}
+/*                                                  */
+
+.whitebg{
+
+    background-color: white;
+    margin-top: 50px;
+   
+
+}
+.imgset div{
+
+    background-color:rgb(247, 248, 250);
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 0px;
+    border: white solid 20px;
+
+}
+
+.imgset div p{
+
+    margin-left: 20px;
+}
+
+.upco{
+
+    border-top: rgb(247, 248, 250) solid 1px;
+    margin-top: -5px;
+}
+
+.upco p{
+
+    text-align: left;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 14px;
+    line-height: 23.8px;
+    width: 200px;
+}
+
+
+/*                                                                 */
+.Imaggal{
+
+margin-top: 70px;
+margin-bottom: 150px;
+
+}
+.middle{
+    text-align: center;
+}
+
+.Imaggalset div {
+
+  
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    
+   
+
+}
+
+.Imaggalset div  img{
+
+    height: 150 px;
+    width: 250px;
+    transition: transform .4s; 
+   
+  
+}
+
+
+.Imaggalset div:hover  img {
+
+ 
+    transform:scale(1.2);
+    opacity: 50%;
+
+  
+}
+
+/*                                                                            */
+.foot{
+    padding-top: 60px;
+}
+.foot .contactu p{
+
+    color: gray;
+    margin-top: -10px;
+}
+
+.foot div p img{
+
+    width: 14px;
+    height: 14px;
+}
+
+.uselink p{
+
+    color: white;
+
+    
+}
+
+.connect{
+
+    padding-bottom:50px ;
+}
+.connect p {
+
+    color: white;
+}
+
+.connect button{
+    
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(0, 111, 190);
+    
+}
+.connect button img{
+    
+    width: 16px;
+    height: 16px;
+}
